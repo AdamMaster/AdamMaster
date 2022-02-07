@@ -1,0 +1,101 @@
+<footer class="footer">
+    <div class="container">
+        <div class="footer__top footer__inner">
+            <ul class="contact-list">
+                <li class="contact-list__item">
+                    <div class="contact-list__icon">
+                        <svg>
+                            <use xlink:href="assets/img/icons/icons.svg#pin"></use>
+                        </svg>
+                    </div>
+                    <div class="contact-list__text">
+                        <div class="contact-list__text-key">Адрес:</div>
+                        <div class="contact-list__text-value">г. Кемерово, <br> ул. Тухачевского, стр. 58а</div>
+                    </div>
+                </li>
+                <li class="contact-list__item">
+                    <div class="contact-list__icon">
+                        <svg>
+                            <use xlink:href="assets/img/icons/icons.svg#time"></use>
+                        </svg>
+                    </div>
+                    <div class="contact-list__text">
+                        <div class="contact-list__text-key">Время работы:</div>
+                        <div class="contact-list__text-value">с 10 до 22 часов</div>
+                    </div>
+                </li>
+                <li class="contact-list__item">
+                    <div class="contact-list__icon">
+                        <svg>
+                            <use xlink:href="assets/img/icons/icons.svg#phone-call"></use>
+                        </svg>
+                    </div>
+                    <div class="contact-list__text">
+                        <div class="contact-list__text-key">Телефон:</div>
+                        <div class="contact-list__text-value"><a class="footer__phone-number phone__number" href="tel:+73842215734">+7(384)221-57-34</a></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__bottom footer__inner">
+            <div class="politic">
+                <a href="assets/files/politica.html" class="politic__text" target="blank">Политика конфиденциальности</a>
+                <a href="assets/files/price.pdf" class="politic__text" target="blank">Прайс</a>
+                <a href="assets/files/offer.pdf" class="politic__text" target="blank">Оферта</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Modals -->
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-close" data-dismiss="modal" aria-label="Close">
+                    <svg>
+                        <use xlink:href="assets/img/icons/icons.svg#close"></use>
+                    </svg>
+                </div>
+                <h2 class="modal__title">Оставьте заявку</h2>
+                <div class="modal__subtitle">
+                    Мы перезвоним в течение 20 минут
+                </div>
+
+            </div>
+            <div class="modal-body">
+                <form class="form" action="mail.php" method="POST">
+                    <div class="input-wrapper">
+                        <input type="tel" name="phone" class="input-phone input" placeholder="Ваш телефон"
+                            required="">
+                    </div>
+                    <button class="modal__button button submit" type="submit">Отправить завявку</button>
+                </form>
+                <div class="form__warning">
+                    Нажимая кнопку “Отправить заявку” я даю согласие на обработку персональных данных
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Thanks window -->
+<div class="thanks-window">
+    <div class="thanks-window__container">
+        <div class="close thanks-window__close">
+            <svg>
+                <use xlink:href="assets/img/icons/icons.svg#close"></use>
+            </svg>
+        </div>
+        <h2 class="thanks-window__title">Спасибо за заявку!</h2>
+        <div class="thanks-window__subtitle">Мы скоро перезвоним вам</div>
+        <button class="button thanks-window__button">ОК</button>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="assets/js/vendor.min.js"></script>
+<script src="assets/js/main.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+@import "../../../node_modules/normalize.css/normalize";
+@import '../../../node_modules/bootstrap/dist/css/bootstrap';
+
+
+ul, li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+p{
+  &:last-child{
+      margin-bottom: 0;
+  }
+}
+a{
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+  }
+}
+svg{
+  width: 50px;
+  height: 50px;
+}
